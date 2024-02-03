@@ -13,8 +13,6 @@ void setup()
   Serial.begin(9600);
    Wire.begin();
    pinMode(pH_Read, INPUT);
-
-
 }
 
 void loop()
